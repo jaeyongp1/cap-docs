@@ -43,7 +43,6 @@
 ## Rewards
 
 * [Frontier Program](rewards/frontier-program.md)
-* [COGs Program](rewards/cogs-program.md)
 
 ## Developers
 
@@ -55,7 +54,6 @@
   * [Platform Terms of Use](resources/terms-and-conditions/platform-terms-of-use.md)
   * [Privacy Policy](resources/terms-and-conditions/privacy-policy.md)
 * [Audits](resources/audits.md)
-* [Glossary](resources/glossary.md)
 * [Dashboard](resources/dashboard.md)
 
 ***
