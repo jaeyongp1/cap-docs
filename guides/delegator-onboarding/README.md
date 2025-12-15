@@ -15,7 +15,7 @@ Ensure you have:
 Select SSN of choice for delegations, and follow the corresponding onboarding guide to complete set up and start delegating.
 
 1. [Symbiotic](symbiotic.md)
-2. EigenLayer
+2. [EigenLayer](eigenlayer.md)
 
 Collateral management, i.e. delegations and withdrawals, are handled within each SSN. Delegators are advised to monitor delay periods specific to the SSN.
 
@@ -28,3 +28,9 @@ While a time buffer is in place to mitigate risk, it is recommended that Delegat
 ### 3. Complete Legal Agreements (Optional)
 
 Operators and Delegators may enter into legal agreements outlining terms of delegation, responsibilities, and compliance.
+
+### 4. Updating Parameters
+
+Should Operators wish to change loan parameters, please contact the Cap team to do so.
+
+Namely, the restaker rate can be updated via the [setRestakerRate](https://github.com/cap-labs-dev/cap-contracts/blob/1064b6a969d55c822dcf0b2c4b733ceb4118737e/contracts/delegation/Delegation.sol) function, and the LTV and LT via the [modifyAgent](https://github.com/cap-labs-dev/cap-contracts/blob/1064b6a969d55c822dcf0b2c4b733ceb4118737e/contracts/delegation/Delegation.sol#L97) function.
