@@ -12,6 +12,7 @@
   * [cUSD Mechanics](protocol-overview/cusd-mechanics.md)
   * [stcUSD Mechanics](protocol-overview/stcusd-mechanics.md)
   * [Shared Security Networks](protocol-overview/shared-security-networks.md)
+* [Cap Tokens](cap-tokens.md)
 * [Risks](risks.md)
 * [FAQs](faqs.md)
 
