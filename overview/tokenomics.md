@@ -2,22 +2,9 @@
 
 ### Overview
 
-$CAP is the governance and utility token of Cap with a fixed supply of 10 billion tokens. Token holders can exercise decision-making rights over core protocol parameters. \
+$CAP is the governance and utility token of Cap with a fixed supply of 10 billion tokens. Token holders' governance rights will be phased as the protocol matures.\
 \
 Revenue generated will be used to conduct discretionary buybacks
-
-***
-
-#### Governance Rights
-
-$CAP holders vote on the following protocol decisions:
-
-1. Adding/removing reserve assets for cUSD
-2. Adding/removing collateral assets eligible for underwriting
-3. Adjusting liquidation thresholds on approved collateral
-4. Adjusting the minting fee on cUSD
-5. Whitelisting institutions as borrowers in the private credit marketplace
-6. Setting maximum coverage limits for financial guarantee surety exposure
 
 ***
 
