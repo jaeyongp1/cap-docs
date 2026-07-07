@@ -4,7 +4,7 @@
 
 ### **Cap Vault**
 
-<table data-full-width="false"><thead><tr><th width="198.5">Contract</th><th width="541.5">Address</th></tr></thead><tbody><tr><td>cUSD</td><td>0xcCcc62962d17b8914c62D74FfB843d73B2a3cccC</td></tr><tr><td>stcUSD</td><td>0x88887bE419578051FF9F4eb6C858A951921D8888</td></tr><tr><td>Debt USDC</td><td>0xfa8C6D0b95d9191B5A1D51C868Da2BDFd6C04Ff9</td></tr><tr><td>Cap Token</td><td>0x99991c6AAbba5a096f24f250b73580F5179b9999</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="198.5">Contract</th><th width="541.5">Address</th></tr></thead><tbody><tr><td>cUSD</td><td>0xcCcc62962d17b8914c62D74FfB843d73B2a3cccC</td></tr><tr><td>stcUSD</td><td>0x88887bE419578051FF9F4eb6C858A951921D8888</td></tr><tr><td>Debt USDC</td><td>0xfa8C6D0b95d9191B5A1D51C868Da2BDFd6C04Ff9</td></tr></tbody></table>
 
 ### **Cap Infra**
 
@@ -18,6 +18,10 @@
 
 <table data-full-width="false"><thead><tr><th width="198.5">Contract</th><th width="541.5">Address</th></tr></thead><tbody><tr><td><a href="https://app.redstone.finance/app/feeds/ethereum-mainnet/cusd_fundamental/">Redstone cUSD</a></td><td>0x9A5a3c3Ed0361505cC1D4e824B3854De5724434A</td></tr><tr><td><a href="https://etherscan.io/address/0x8E3386B2f6084eB1B0988070c3d826995BD175c0">Morpho stcUSD</a></td><td>0x8E3386B2f6084eB1B0988070c3d826995BD175c0</td></tr></tbody></table>
 
+### **Cap Token**
+
+<table data-full-width="false"><thead><tr><th width="198.5">Contract</th><th width="541.5">Address</th></tr></thead><tbody><tr><td>Cap Token</td><td>0x99991c6AAbba5a096f24f250b73580F5179b9999</td></tr></tbody></table>
+
 ## MegaETH Mainnet
 
 ### **Cap Vault**
@@ -30,7 +34,7 @@
 
 ## Tempo Mainnet
 
-### **Cap Vault**&#x20;
+### **Cap Vault**
 
 <table data-full-width="false"><thead><tr><th width="198.5">Contract</th><th width="541.5">Address</th></tr></thead><tbody><tr><td>cUSD</td><td>0x20C0000000000000000000000520792DcCccCccC</td></tr><tr><td>stcUSD</td><td>0x20c0000000000000000000008EE4fcFF88888888</td></tr></tbody></table>
 
