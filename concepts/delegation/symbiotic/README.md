@@ -21,7 +21,7 @@ Let's dive deeper into each of the steps.
 
 ### Deploy Vault
 
-<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption><p>Cap Symbiotic Vault creation and deposit flow</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption><p>Cap Symbiotic Vault creation and deposit flow</p></figcaption></figure>
 
 The `createVault` function is the core deployment function in the `CapSymbioticVaultFactory` contract.
 

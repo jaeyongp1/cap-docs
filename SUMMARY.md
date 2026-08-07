@@ -33,7 +33,8 @@
   * [Interest Rates](concepts/lender/interest-rates.md)
 * [Fee Auction](concepts/fee-auction.md)
 * [Delegation](concepts/delegation/README.md)
-  * [Symbiotic](concepts/delegation/symbiotic.md)
+  * [Symbiotic](concepts/delegation/symbiotic/README.md)
+    * [Understanding Epochs](concepts/delegation/symbiotic/understanding-epochs.md)
 * [Oracles](concepts/oracles.md)
 * [Access Controls](concepts/access-controls.md)
 

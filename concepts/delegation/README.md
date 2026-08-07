@@ -9,7 +9,7 @@ The Delegation module serves as a middleware between Shared Security Networks an
 
 Cap supports multiple SSNs. Currently integrated SSNs include:
 
-* [Symbiotic](symbiotic.md)
+* [Symbiotic](symbiotic/)
 * EigenLayer
 
 ## Overview of Cap SSN Requirements
@@ -18,23 +18,23 @@ Cap supports multiple SSNs. Currently integrated SSNs include:
 
 Delegation coverage is isolated both on a Network level and a Borrower level. Each Borrower is uniquely mapped to a SSN and an Underwriter. Each Borrower receives unique, isolated stake from a single Underwriter such that liquidation risk is not shared.
 
-Network level isolation means that delegations cannot be "restaked" across multiple slashable restaking protocols — because delegations are used as collateral in Cap, a liquidation event in a different Network other than Cap would result in bad debt for Cap.&#x20;
+Network level isolation means that delegations cannot be "restaked" across multiple slashable restaking protocols — because delegations are used as collateral in Cap, a liquidation event in a different Network other than Cap would result in bad debt for Cap.
 
-Similarly, restaking across multiple Borrowers within Cap is not allowed. When multiple Underwriters are delegating to the same Borrower, a withdrawal from one of the Underwriters can result in a liquidation event for other Underwriters.&#x20;
+Similarly, restaking across multiple Borrowers within Cap is not allowed. When multiple Underwriters are delegating to the same Borrower, a withdrawal from one of the Underwriters can result in a liquidation event for other Underwriters.
 
 In other words, an Underwriter's stake can only be used for a single Borrower in Cap. Alternatively, a Borrower cannot receive stake from multiple Underwriters. If the Borrower were to receive delegations from a new Underwriter, then the Borrower can simply create a new Ethereum address to do so.
 
 ### Underwriting Premiums
 
-Each Borrower-Underwriter pair agrees upon a predetermined premium for underwriting. As such, each Borrower-Underwriter pair has a unique fixed yearly rate that can be updated via Admin controls. The rates are set in the respective SSN upon deployment.&#x20;
+Each Borrower-Underwriter pair agrees upon a predetermined premium for underwriting. As such, each Borrower-Underwriter pair has a unique fixed yearly rate that can be updated via Admin controls. The rates are set in the respective SSN upon deployment.
 
-Underwriting premiums are distributed per each SSN's reward handler.&#x20;
+Underwriting premiums are distributed per each SSN's reward handler.
 
 ### Liquidation and Redistribution
 
 Liquidation conditions in Cap are objective: they are triggered when the health factor of the Borrower drops below the liquidation threshold. Liquidations can be called permissionlessly, and verified onchain. Liquidated funds are redistributed back to the Liquidators, ensuring cUSD is always backed 1:1.
 
-To incentivize liquidations, liquidation and redistribution happen instantly. There are no veto committees nor delay periods for liquidations to occur, nor for the liquidated funds to be redistributed.&#x20;
+To incentivize liquidations, liquidation and redistribution happen instantly. There are no veto committees nor delay periods for liquidations to occur, nor for the liquidated funds to be redistributed.
 
 ### Whitelisted Participants
 
